@@ -1,0 +1,20 @@
+h1 {
+    color: red;
+    font-size: 30px;
+}
+h1:hover {
+    /* Overrides the normal h1 settings */
+    /* Pseudo Classes are really unique things for CSS - look into it later */
+    color: rgb(60, 0, 255);
+    text-decoration: underline;
+    font-size: 50px;
+}
+body{
+    background-color: beige;
+    /* This formats everything in body to be centered */
+    /* text-align: center; */
+}
+img {
+    border-style: solid;
+    border: rgb(19, 18, 18), 5px;
+}
