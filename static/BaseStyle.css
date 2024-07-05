@@ -1,0 +1,44 @@
+/* Add a black background color to the top navigation */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .navbar a.active {
+    background-color: #565871;
+    color: white;
+  }
+
+h1:hover {
+    /* Overrides the normal h1 settings */
+    /* Pseudo Classes are really unique things for CSS - look into it later */
+    color: rgb(60, 0, 255);
+    text-decoration: underline;
+    font-size: 35px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    /* This formats everything in body to be centered */
+    /* text-align: center; */
+}
+img {
+    border-style: solid;
+    border: rgb(19, 18, 18), 5px;
+}

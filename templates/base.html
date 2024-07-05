@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>APTestPrep</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='BaseStyle.css') }}">
+    <script src="/static/script.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <a class="active" href="/">Home</a>
+        <a href="/select">APs</a>
+        <a href="/resources">Resources</a>
+        <a href="/login">Login</a>
+    </div>
+    {% block body %}
+    <h2>Prep Focuses:</h2>
+    <ol>
+        <li>MCQs</li>
+        <li>FRQs</li>
+        <li>Concept Reviews</li>
+    </ol>
+    {% endblock %}
+    <br>
+    <button onclick="changeDocTitle()">Change Doc Title</button>
+</body>
+</html>

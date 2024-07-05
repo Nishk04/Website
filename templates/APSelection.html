@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block body %}
+<label action="#" for="AP_Classes">Select which AP Class you want to study for:</label>
+<select name="AP_Classes" id="AP_Classes" onchange="this.form.submit()">
+         {% for class in ap_classes %}
+         <option value="{{ class }}" {%if class == selected_class %}selected{% endif %}>{{ class }}</option>
+         {% endfor %}
+</select>
+{% endblock %}
