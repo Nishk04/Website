@@ -1,2 +1,2 @@
-# Physics-Website
-Using HTML, JSS, and CSS for practice in making a website. 
+# Website
+Used HTML, JS, CSS, and Python (Flask framework) to practice and learn webdev skills. 
